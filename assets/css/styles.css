@@ -1,0 +1,217 @@
+body {
+  color: #474646;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Raleway';
+  line-height: 45px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Raleway';
+}
+
+p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Raleway';
+  line-height: 25px;
+}
+
+.btn.btn-primary {
+  color: #ffffff;
+  font-family: 'Raleway';
+  font-size: 15px;
+  background-color: #F6C352;
+  border-color: #F6C352;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  color: #fff;
+  background-color: #EBB847;
+  border-color: #EBB847;
+  box-shadow: 0 0 0 .2rem rgba(38,143,255,.5);
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #EBB847;
+  border-color: #EBB847;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #EBB847;
+  border-color: #EBB847;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 .2rem rgba(38,143,255,.5);
+}
+
+a:hover {
+  color: #474646;
+  text-decoration: underline;
+}
+
+.title-section {
+  margin-bottom: 50px;
+}
+
+.icons-size {
+  width: 70px;
+  height: 70px;
+}
+
+.subtitle-space {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.card-border {
+  border: 0px;
+}
+
+.section-1 {
+  margin-top: 55px;
+  margin-bottom: 55px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.section-2 {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.border-table-custom {
+  border: 1px;
+  border-color: #D2D2D2;
+  border-radius: 10px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+.icons-space-custom {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#section-mitra {
+  background-color: #F5F5F5;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.section-footer {
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #F6C352;
+  color: #ffffff;
+}
+
+.text-custom {
+  height: 34px;
+  font-family: 'Raleway';
+  font-size: 11px;
+  color: #A49999;
+}
+
+.form-control:focus {
+  color: #fff;
+  background-color: #fff;
+  border-color: #fff;
+  outline: 0;
+  box-shadow: 0 0 0 .2rem rgb(255,239,202);
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #F6C352;
+  border-color: #fff;
+  margin-left: 10px;
+  height: 34px;
+}
+
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #FBD47D;
+  border-color: #FBD47D;
+}
+
+.btn-secondary.focus, .btn-secondary:focus {
+  color: #fff;
+  background-color: #F6C352;
+  border-color: #F6C352;
+  box-shadow: 0 0 0 .2rem rgb(255,255,255);
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show > .btn-secondary.dropdown-toggle {
+  color: #fff;
+  background-color: #F6C352;
+  border-color: #F6C352;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show > .btn-secondary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 .2rem rgb(255,255,255);
+}
+
+.footer-title-section {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.icons-space {
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.logo-mitra {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+a {
+  color: #474646;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.nav-link:focus, .nav-link:hover {
+  text-decoration: underline;
+}
+
+link-footer:focus, .link-footer:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.heading-space {
+  margin-bottom: 40px;
+}
+
+.link-footer {
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.section-top {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
