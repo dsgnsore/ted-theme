@@ -81,6 +81,8 @@ a:hover {
   margin-bottom: 55px;
   padding-top: 55px;
   padding-bottom: 55px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .section-2 {
@@ -107,8 +109,8 @@ a:hover {
   background-color: #F5F5F5;
   padding-top: 70px;
   padding-bottom: 70px;
-  padding-left: 90px;
-  padding-right: 90px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .section-footer {
@@ -213,5 +215,14 @@ link-footer:focus, .link-footer:hover {
 .section-top {
   margin-top: 50px;
   margin-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.space-form {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
