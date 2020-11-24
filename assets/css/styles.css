@@ -232,3 +232,7 @@ link-footer:focus, .link-footer:hover {
   font-weight: 500;
 }
 
+.select-text-custom:focus {
+  color: #707070;
+}
+
