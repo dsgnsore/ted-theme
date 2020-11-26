@@ -34,7 +34,7 @@ p {
   color: #fff;
   background-color: #EBB847;
   border-color: #EBB847;
-  box-shadow: 0 0 0 .2rem rgba(38,143,255,.5);
+  box-shadow: 0 0 0 .2rem rgb(230, 197, 126));
 }
 
 .btn-primary:hover {
@@ -50,7 +50,7 @@ p {
 }
 
 .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 .2rem rgba(38,143,255,.5);
+  box-shadow: 0 0 0 .2rem s);
 }
 
 a:hover {
@@ -130,7 +130,7 @@ a:hover {
 }
 
 .form-control:focus {
-  color: #fff;
+  color: #474646;
   background-color: #fff;
   border-color: #fff;
   outline: 0;
