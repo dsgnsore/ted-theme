@@ -34,7 +34,7 @@ p {
   color: #fff;
   background-color: #EBB847;
   border-color: #EBB847;
-  box-shadow: 0 0 0 .2rem rgb(230, 197, 126));
+  box-shadow: 0 0 0 .2rem rgb(230, 197, 126);
 }
 
 .btn-primary:hover {
@@ -50,7 +50,7 @@ p {
 }
 
 .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 .2rem s);
+  box-shadow: 0 0 0 .2rem rgb(230, 197, 126);
 }
 
 a:hover {
@@ -101,8 +101,8 @@ a:hover {
 }
 
 .icons-space-custom {
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #section-mitra {
@@ -234,5 +234,10 @@ link-footer:focus, .link-footer:hover {
 
 .select-text-custom:focus {
   color: #707070;
+}
+
+.heading-space-custom {
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
