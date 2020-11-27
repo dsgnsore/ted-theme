@@ -241,3 +241,29 @@ link-footer:focus, .link-footer:hover {
   margin-bottom: 30px;
 }
 
+#acc-custom-color {
+  background-color: #F6C352;
+}
+
+.bg-info {
+  background-color: #F6C352;
+}
+
+.border-info {
+  border-color: #F6C352;
+}
+
+.myaccordion {
+  box-shadow: 0 0 1px rgba(0,0,0,0.1);
+}
+
+.card-custom {
+  background-color: #F6C352;
+  border-color: #fff;
+}
+
+.card-body.card-body-custom {
+  background-color: #fff;
+  border-color: #fff;
+}
+
