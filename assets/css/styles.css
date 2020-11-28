@@ -90,6 +90,11 @@ a:hover {
   margin-bottom: 50px;
 }
 
+.section-3 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .border-table-custom {
   border: 1px;
   border-color: #D2D2D2;
@@ -405,5 +410,20 @@ link-footer:focus, .link-footer:hover {
   width: 78px;
   height: 78px;
   border-radius: 15px;
+}
+
+.img-related-post {
+  border-radius: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  width: 265px;
+  height: 260px;
+}
+
+.section-4 {
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
