@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>website-ted</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Search.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/dist/chart.css">
+    
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean-search">
+        <div class="container"><img src="assets/img/logo-TED.png"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav d-flex d-xl-flex justify-content-center">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">HOME</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="harga_emas.html">HARGA EMAS HARI INI</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">LINI BISNIS TED</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="blog-page-v2.html">EVENT</a></li>
+                    <li class="nav-item" role="presentation"></li>
+                </ul>
+                <form class="form-inline mr-auto" target="_self">
+                    <div class="form-group"><label for="search-field"><i class="fa fa-search"></i></label><input class="form-control search-field" type="search" id="search-field" name="search"></div>
+                </form><a class="nav-link" href="login.html">Login</a>
+                <a href="create-new-account.html" class="btn btn-primary">Sign Up</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container section-top">
+        
+        <div class="row">
+            <div class="col title-section">
+                <h1 class="text-left">HARGA EMAS HARI INI</h1>
+            </div>
+        </div>
+        <div class="row">
+                <div class="col title-section">
+                    <h2 class="text-left">Grafik Harga Emas</h2>
+                </div>
+            </div>
+        <div class="row">
+            <div class="col title-section">
+                    <script src="assets/dist/chart.bundle.js"></script>
+                    <div >
+                        <canvas id="myChart"></canvas>
+                    </div>
+
+                    <script>
+                    var ctx = document.getElementById('myChart');
+                    var dataFirst = new Chart(ctx, {
+                        type: 'line',
+                        
+                        data: {
+                            labels: ['25 Nov', '26 Nov', '27 Nov', '28 Nov', '29 Nov', '30 Nov'],
+                            datasets: [{
+                                label: 'Harga Jual',
+                                data: [816000, 826000, 826000, 826000, 829000, 839000],
+                                backgroundColor: [
+                                    'rgba(255, 255, 255, 0.2)',
+                                    'rgba(54, 162, 235, 0.2)',
+                                    'rgba(255, 206, 86, 0.2)',
+                                    'rgba(75, 192, 192, 0.2)',
+                                    'rgba(153, 102, 255, 0.2)',
+                                    'rgba(255, 159, 64, 0.2)'
+                                ],
+                                borderColor: [
+                                    'rgba(246, 195, 82, 2)',
+                                    'rgba(246, 195, 82, 2)',
+                                    'rgba(246, 195, 82, 2)',
+                                    'rgba(246, 195, 82, 2)',
+                                    'rgba(246, 195, 82, 2)',
+                                    'rgba(246, 195, 82, 2)'
+                                ],
+                                borderWidth: 2
+                            },{
+                                label: 'Harga Beli',
+                                data: [911487, 927127, 927631, 927631, 927127, 939739],
+                                backgroundColor: [
+                                    'rgba(255, 255, 255, 0.2)',
+                                    'rgba(54, 162, 235, 0.2)',
+                                    'rgba(255, 206, 86, 0.2)',
+                                    'rgba(75, 192, 192, 0.2)',
+                                    'rgba(153, 102, 255, 0.2)',
+                                    'rgba(255, 159, 64, 0.2)'
+                                ],
+                                borderColor: [
+                                    'rgba(201, 201, 201, 2)',
+                                    'rgba(201, 201, 201, 2)',
+                                    'rgba(201, 201, 201, 2)',
+                                    'rgba(201, 201, 201, 2)',
+                                    'rgba(201, 201, 201, 2)',
+                                    'rgba(201, 201, 201, 2)'
+                                ],
+                                borderWidth: 2
+                            }]
+                            
+                        },
+                        options: {
+                            legend: {
+                                display: true,
+                                position: 'bottom',
+                                labels: {
+                                    boxWidth: 80,
+                                    fontColor: 'rgb(45, 45, 45)',
+                                    fontFamily: 'Raleway',
+                                    fontSize: 14,
+                                    padding: 50
+                                }
+                            }
+
+                            
+                        }
+
+                        });
+        
+                        
+                    
+
+                    
+                    
+                    </script>
+                    
+
+            </div>
+        </div>        
+
+
+        <div class="row">
+            <div class="col section-4">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Produk</th>
+                                <th>Harga Beli</th>
+                                <th>Harga Jual</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Emas Logam Mulia 99.99%</td>
+                                <td>Rp. 962.946</td>
+                                <td>Rp. 859.000</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="text-notes">Harga beli naik 0,00% update at 17 Nov 2020</td>
+                                <td class="text-notes">Harga jual naik 0,00% update at 17 Nov 2020</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col footer-title-section">
+                <h2>TABLE UPDATE HARGA EMAS</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col title-section">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th><strong>Tanggal &amp; Jam Update</strong></th>
+                                <th>Harga Beli</th>
+                                <th>Harga Jual</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2020-11-18 10.00AM</td>
+                                <td>Rp. 962.946</td>
+                                <td>Rp. 962.946</td>
+                            </tr>
+                            <tr>
+                                <td>2020-11-18 10.00AM</td>
+                                <td>Rp. 962.946</td>
+                                <td>Rp. 962.946</td>
+                            </tr>
+                            <tr>
+                                <td>2020-11-18 10.00AM</td>
+                                <td>Rp. 962.946</td>
+                                <td>Rp. 962.946</td>
+                            </tr>
+                            <tr>
+                                <td>2020-11-18 10.00AM</td>
+                                <td>Rp. 962.946</td>
+                                <td>Rp. 962.946</td>
+                            </tr>
+                            <tr>
+                                <td>2020-11-18 10.00AM</td>
+                                <td>Rp. 962.946</td>
+                                <td>Rp. 962.946</td>
+                            </tr>
+                            <tr>
+                                <td>2020-11-18 10.00AM</td>
+                                <td>Rp. 962.946</td>
+                                <td>Rp. 962.946</td>
+                            </tr>
+                            <tr>
+                                <td>2020-11-18 10.00AM</td>
+                                <td>Rp. 962.946</td>
+                                <td>Rp. 962.946</td>
+                            </tr>
+                            <tr>
+                                <td>2020-11-18 10.00AM</td>
+                                <td>Rp. 962.946</td>
+                                <td>Rp. 962.946</td>
+                            </tr>
+                            <tr>
+                                <td>2020-11-18 10.00AM</td>
+                                <td>Rp. 962.946</td>
+                                <td>Rp. 962.946</td>
+                            </tr>
+                            <tr>
+                                <td>2020-11-18 10.00AM</td>
+                                <td>Rp. 962.946</td>
+                                <td>Rp. 962.946</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="text-notes"></td>
+                                <td class="text-notes"><em>Harga update per 1 gram</em></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="section-footer">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 col-footer-custom">
+                <h2 class="footer-title-section">Jadilah yang Pertama Tahu</h2>
+                <form class="form-inline">
+                    <div class="form-group mx-sm-1 mb-1"><input class="form-control text-custom space-form" type="text" placeholder="Masukkan Email Anda"><button class="btn btn-secondary d-xl-flex align-items-xl-center space-form align-middle" type="button">Subscribe</button></div>
+                </form>
+                <p class="footer-title-section">Jadilah yang pertama tahu tentang promo dan tips jual beli emas dengan berlangganan newsletter kami</p><a href="#"></a><a href="#"></a><a href="#"></a></div>
+            <div class="col-sm-6 col-md-6 col-lg-2 col-xl-2 col-footer-custom">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="footer-title-section">Perusahaan</h2>
+                        <ul class="list-unstyled">
+                            <li><a class="link-footer" href="about-us.html">Tentang Kami</a></li>
+                            <li><a class="link-footer" href="#">Latar Belakang</a></li>
+                            <li><a class="link-footer" href="contact-us.html">Kontak Kami</a></li>
+                            <li><a class="link-footer" href="faq-page.html">FAQ</a></li>
+                            <li><a class="link-footer" href="#">Testimonials</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-2 col-xl-2 col-footer-custom">
+                <h2 class="footer-title-section">Lini Bisnis</h2>
+                <ul class="list-unstyled">
+                    <li><a class="link-footer" href="#">Jual-Beli-Transfer Emas</a></li>
+                    <li><a class="link-footer" href="#">Arisan Emas</a></li>
+                    <li><a class="link-footer" href="#">Titipan Emas</a></li>
+                    <li><a class="link-footer" href="#">Bantuan Emas</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 col-footer-custom">
+                <h2 class="footer-title-section">Bantuan</h2>
+                <ul class="list-unstyled">
+                    <li><a class="link-footer" href="#">Tata Cara Pendaftaran Akun TED</a></li>
+                    <li><a class="link-footer" href="#">Tata Cara Login Akun TED</a></li>
+                    <li><a class="link-footer" href="#">Tata Cara Jual Beli Emas</a></li>
+                    <li><a class="link-footer" href="#">Tata Cara Transfer Emas</a></li>
+                    <li><a class="link-footer" href="#">Tata Cara Deposit Saldo Wallet</a></li>
+                    <li><a class="link-footer" href="#">Syarat dan Ketentuan</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-2 col-xl-2 col-footer-custom">
+                <h4 class="footer-title-section">Berita TED</h4>
+                <ul class="list-unstyled">
+                    <li><a class="link-footer" href="blog-page-v1.html">Artikel</a></li>
+                    <li><a class="link-footer" href="blog-page-v1.html">Berita</a></li>
+                    <li><a class="link-footer" href="blog-page-v2.html">Event</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col d-flex justify-content-center"><img class="icons-space" src="assets/img/001-facebook.png"><img class="icons-space" src="assets/img/005-instagram-2.png"></div>
+        </div>
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <p>Tabung Emas Digital © 2019</p>
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <!--<script src="assets/dist/Chart.js"></script>-->
+    
+    
+    </script>
+    
+</body>
+
+</html>

@@ -427,3 +427,8 @@ link-footer:focus, .link-footer:hover {
   margin-bottom: 30px;
 }
 
+.text-notes {
+  font-size: 14px;
+  font-style: italic;
+}
+
