@@ -13,6 +13,53 @@
 </head>
 
 <body>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">EVENT YANG AKAN DATANG</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <a href="blog-page-v2.html"><img src="assets/img/event-1.jpg" class="d-block w-100" alt="..."></a>
+                                          </div>
+                                          <div class="carousel-item">
+                                            <a href="blog-page-v2.html"><img src="assets/img/event-2.jpg" class="d-block w-100" alt="..."></a>
+                                          </div>
+                                          
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="sr-only">Next</span>
+                                        </a>
+                                      </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+    </div>
+
+      
+
+    <!-- NAVIGATION -->
     <nav class="navbar navbar-light navbar-expand-md navigation-clean-search">
         <div class="container"><img src="assets/img/logo-TED.png"><button data-toggle="collapse" class="navbar-toggler"
                 data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span
@@ -37,6 +84,9 @@
             </div>
         </div>
     </nav>
+
+
+    <!--SECTION WHY~ -->
     <div class="container">
         <div class="row">
             <div class="col"></div>
@@ -139,6 +189,12 @@
                     class="img-fluid d-xl-flex" src="assets/img/illustration.png"></div>
         </div>
     </div>
+
+
+
+
+
+    <!-- SECTION TENTANG TABUNG EMAS -->
     <div class="container section-1">
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-center">
@@ -157,6 +213,11 @@
                     class="img-fluid" src="assets/img/Group%2013.png"></div>
         </div>
     </div>
+
+
+    
+
+    <!--SECTION WHY 2~ -->
     <div class="container section-1">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 title-section">
@@ -249,6 +310,10 @@
             </div>
         </div>
     </div>
+
+
+
+    <!-- DAFTAR MENJADI ANGGOTA -->
     <div class="container section-1">
         <div class="row">
             <div class="col-sm-12 col-md-7 col-lg-7 col-xl-7 d-flex align-items-center">
@@ -264,6 +329,11 @@
                     class="img-fluid" src="assets/img/Group%2014.png"></div>
         </div>
     </div>
+
+
+
+
+    <!-- DAFTAR ANGGOTA -->
     <div class="container section-1">
         <div class="row">
             <div class="col title-section">
@@ -315,6 +385,11 @@
             </div>
         </div>
     </div>
+
+
+
+
+    <!-- MITRA TED-->
     <section id="section-mitra">
         <div class="row title-section">
             <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 m-auto">
@@ -336,6 +411,11 @@
             </div>
         </div>
     </section>
+
+
+
+
+    <!--FOOTER -->
     <section class="section-footer">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 col-footer-custom">
@@ -403,8 +483,15 @@
             </div>
         </div>
     </section>
+
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+    <script>
+        $('#myModal').modal('show');
+    </script>
+    
 </body>
 
 </html>
