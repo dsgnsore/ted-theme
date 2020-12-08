@@ -444,11 +444,11 @@ link-footer:focus, .link-footer:hover {
   border: 0px;
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
   
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .border-testi-round{
@@ -472,8 +472,8 @@ link-footer:focus, .link-footer:hover {
 }
 
 .position-testi{
-  padding: 55px 55px 55px 55px;
-  margin: 55px 55px 55px 55px;
+  padding: 55px 20px 55px;
+  margin: 55px 20px 55px;
 }
 
 .photo-testi{
@@ -484,4 +484,11 @@ link-footer:focus, .link-footer:hover {
 .space-testi{
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.section-testi {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
