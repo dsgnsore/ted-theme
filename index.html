@@ -15,49 +15,53 @@
 <body>
     <!-- Modal -->
     <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg">
-              <div class="modal-content">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">EVENT YANG AKAN DATANG</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
+                    <h5 class="modal-title" id="exampleModalLabel">EVENT YANG AKAN DATANG</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
                 <div class="modal-body">
-                  <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
                                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                                        <div class="carousel-inner">
-                                          <div class="carousel-item active">
-                                            <a href="blog-page-v2.html"><img src="assets/img/event-1.jpg" class="d-block w-100" alt="..."></a>
-                                          </div>
-                                          <div class="carousel-item">
-                                            <a href="blog-page-v2.html"><img src="assets/img/event-2.jpg" class="d-block w-100" alt="..."></a>
-                                          </div>
-                                          
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <a href="blog-page-v2.html"><img src="assets/img/event-1.jpg"
+                                                    class="d-block w-100" alt="..."></a>
                                         </div>
-                                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                          <span class="sr-only">Previous</span>
-                                        </a>
-                                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                          <span class="sr-only">Next</span>
-                                        </a>
-                                      </div>
+                                        <div class="carousel-item">
+                                            <a href="blog-page-v2.html"><img src="assets/img/event-2.jpg"
+                                                    class="d-block w-100" alt="..."></a>
+                                        </div>
+
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                                        data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                                        data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                  </div>
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
-              </div>
             </div>
+        </div>
     </div>
 
-      
+
 
     <!-- NAVIGATION -->
     <nav class="navbar navbar-light navbar-expand-lg navigation-clean-search">
@@ -67,7 +71,8 @@
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav d-flex d-xl-flex justify-content-center">
                     <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">HOME</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="harga_emas.html">HARGA EMAS HARI INI</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="harga_emas.html">HARGA EMAS HARI
+                            INI</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#">LINI BISNIS TED</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="blog-page-v2.html">EVENT</a></li>
                     <li class="nav-item" role="presentation"></li>
@@ -85,6 +90,12 @@
         </div>
     </nav>
 
+    <!--SECTION VIDEO-->
+    <div class="mt-2">
+        <video id="tedvideo" autoplay="autoplay" muted="muted" controls="" width="100%" loop="loop">
+            <source src="assets/video/video-ted-full-suara.mp4" type="video/mp4">
+        </video>
+    </div>
 
     <!--SECTION WHY~ -->
     <div class="container">
@@ -215,7 +226,7 @@
     </div>
 
 
-    
+
 
     <!--SECTION WHY 2~ -->
     <div class="container section-1">
@@ -424,11 +435,10 @@
                     <div class="form-group mx-sm-1 mb-1">
                         <input class="form-control text-custom space-form" type="text"
                             placeholder="Masukkan Email Anda">
-                        
+
                     </div>
                     <div class="form-group mx-sm-1 mb-1">
-                        <button
-                            class="btn btn-secondary d-xl-flex align-items-xl-center space-form align-middle"
+                        <button class="btn btn-secondary d-xl-flex align-items-xl-center space-form align-middle"
                             type="button">Subscribe
                         </button>
                     </div>
@@ -498,7 +508,7 @@
     <script>
         $('#myModal').modal('show');
     </script>
-    
+
 </body>
 
 </html>
